@@ -1,4 +1,5 @@
 "use client"
+import '@/styles/globals.css';
 
 import { useState, useRef } from "react"
 import { QRCodeSVG } from "qrcode.react"
