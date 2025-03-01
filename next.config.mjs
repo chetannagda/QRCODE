@@ -21,7 +21,7 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-  assetPrefix: process.env.NODE_ENV === "production" ? "QR" : "",
+  assetPrefix: process.env.NODE_ENV === "production" ? "/QR" : "",
   output: "export", // Ensures static HTML export
 };
 
